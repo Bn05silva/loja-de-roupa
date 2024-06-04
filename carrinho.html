@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kids shope</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+
+</head>
+<body>
+
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="navbar">
+
+                <div class="logo">
+                    <img src="./img/logo.png" alt="kids shope" width="125px">
+                </div>
+
+                <nav>
+                    <ul id="MenuItens">
+                        <li><a href="./index.html" title="">inicio</a></li>
+                        <li><a href="./produtos.html" title="">produtos</a></li>
+                        
+                    </ul>
+
+                </nav>
+                <a href="carrinho.html" title="">
+                <img src="./img/carrinho.png" alt="" width="30px" height="30px">
+                 </a>
+                <img src="./img/menu.png" alt="" class="menu-celular" onclick="menucelular">
+
+         
+                </div>
+
+
+            </div>
+
+        </div>
+
+    
+        <div class="corpo-categorias carrinho-compras">
+
+            <table>
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Valor</th>
+                </tr>
+
+
+
+                <tr>
+                    <td>
+                        <div class="info-carrinho">
+                            <img src="./img/produto1.jpg" width="200px" height="200px" alt="">
+
+                            <div>
+                                <p>Conjunto Scooby-Doo</p>
+                                <small>Valor: R$199,99</small>
+                                <br>
+                                <button class="remover-item" onclick="removerItem(this)">Remover</button>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <form action="" method="post">
+                            <input type="number" name="" id="" value="1">
+                        </form>
+                    </td>
+                    <td>R$199,99</td>
+                    
+                </tr>
+
+
+                
+            </table>
+
+
+            <div class="valor-total">
+                <table>
+
+                    <tr>
+                        <td></td>
+                        <td>Sub-total:</td>
+                        <td>R$ 199,99</td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>Frete:</td>
+                        <td>R$ 33,68</td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>Total:</td>
+                        <td>R$ 233,67</td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+
+
+    <footer class="rodape">
+
+        <div class="container">
+            <div class="linha">
+
+                
+                <div class="rodape-col-1">
+                    <h3>Mais informações</h3>
+                    <ul>
+                        <li>Cupons</li>
+                        <li>Blog</li>
+                        <li>Política de privacidade</li>
+                        <li>Contatos</li>
+                    </ul>
+                </div>
+
+                <div class="rodape-col-2">
+                    <h3>Redes sociais</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instragam</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
